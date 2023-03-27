@@ -7,8 +7,10 @@ version: 2
 
 # Personal info
 name: Yen-Hsiang (Robert) Huang 
-title: ECE Ph.D. student @ GaTech \\ RA @ GTCAD (https://gtcad.gatech.edu)
-email: yhhuang@gatech.edu (school) \\ robert0306@gmail.com (personal)
+title: ECE Ph.D. student @ GaTech & RA @ GTCAD (https://gtcad.gatech.edu)
+email(school): yhhuang@gatech.edu (school)
+email(personal): robert0306@gmail.com (personal)
+phone: +1 (470) 923-6469
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -16,18 +18,18 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
+linkedin_username: yen-hsiang-huang-5a78771b5
 github_username:  roberthuang0306
+orcid_username: 0000-0003-0116-1351
+facebook_username: yenhsianghuang0306
+instagram_username: yenhsiang_huang
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-facebook_username: yenhsianghuang0306
 # flickr_username: jekyll
-instagram_username: yenhsiang_huang
-linkedin_username: yen-hsiang-huang-5a78771b5
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
-orcid_username: 0000-0003-0116-1351
 
 # Additional icon links
 # additional_links:
@@ -48,12 +50,12 @@ orcid_username: 0000-0003-0116-1351
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  # Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Current Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle

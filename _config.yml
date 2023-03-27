@@ -9,10 +9,10 @@ version: 2
 name: Yen-Hsiang (Robert) Huang 
 title: ECE Ph.D. student @ GaTech  
 
-       RA @ GTCAD 
+    #    RA @ GTCAD 
 email: yhhuang@gatech.edu (school)  
 
-       robert0306@gmail.com (personal)
+    #    robert0306@gmail.com (personal)
 phone: +1 (470) 923-6469
 # website: www.github.com/sproogen/resume-theme
 
@@ -54,7 +54,8 @@ instagram_username: yenhsiang_huang
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     Hi, I am a 1st year Ph.D. student supervised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu) at [Georgia Tech Computer-aided Design Lab](https://www.gtcad.gatech.edu).
-    I graduated from National Taiwan University in 2022
+    I graduated from National Taiwan University in 2022, and during my undergrade years, I had wonderful internship in Synopsys (2021 summer) and Cadence (2020 summer).
+    Currently, I am working on topics related to 3D VLSI.
 
 content:
   - title: Current Projects # Title for the section

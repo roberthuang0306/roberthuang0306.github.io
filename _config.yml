@@ -52,7 +52,7 @@ instagram_username: yenhsiang_huang
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
     
-    Hi, I'm [Your Name], a first-year Ph.D. student supervised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu) at [Georgia Tech Computer-aided Design Lab(GTCAD)](https://www.gtcad.gatech.edu).
+    Hi, I'm Yen-Hsiang Huang, a first-year Ph.D. student supervised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu) at [Georgia Tech Computer-aided Design Lab(GTCAD)](https://www.gtcad.gatech.edu).
     My research interests are in 3D VLSI, and I'm currently working on topics related to bumps and pads legalization for 3D ICs.
 
     I completed my undergraduate studies at National Taiwan University in 2022, where I achieved 4.09/4.30. 

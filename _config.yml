@@ -26,7 +26,7 @@ github_username:  roberthuang0306
 facebook_username: yenhsianghuang0306
 # flickr_username: jekyll
 instagram_username: yenhsiang_huang
-linkedin_username: 860865
+linkedin_username: yen-hsiang-huang-5a78771b5
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Current Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -81,7 +81,7 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+  - title: Publication
     layout: list
     content:
       - layout: right

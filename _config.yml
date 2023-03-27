@@ -7,9 +7,10 @@ version: 2
 
 # Personal info
 name: Yen-Hsiang (Robert) Huang 
-title: ECE Ph.D. student @ GaTech & RA @ GTCAD (https://gtcad.gatech.edu)
-email(school): yhhuang@gatech.edu (school)
-email(personal): robert0306@gmail.com (personal)
+title: ECE Ph.D. student @ GaTech <br>
+       RA @ GTCAD 
+email: yhhuang@gatech.edu (school) <br>
+       robert0306@gmail.com (personal)
 phone: +1 (470) 923-6469
 # website: www.github.com/sproogen/resume-theme
 

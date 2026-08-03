@@ -6,9 +6,9 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Yen-Hsiang (Robert) Huang 
-title: ECE Ph.D. @ GaTech | RA @ GTCAD 
-email: yhhuang@gatech.edu
+name: Yen-Hsiang (Robert) Huang
+title: ECE Ph.D. @ Georgia Tech | RA @ GTCAD
+email: yhuang861@gatech.edu
 
     #    robert0306@gmail.com (personal)
 phone: +1 (470) 923-6469
@@ -51,37 +51,57 @@ instagram_username: yenhsiang_huang
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-    
-    Hi, I'm Yen-Hsiang Huang, a first-year Ph.D. student supervised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu) at [Georgia Tech Computer-aided Design Lab(GTCAD)](https://www.gtcad.gatech.edu).
-    My research interests are in 3D VLSI, and I'm currently working on topics related to bumps and pads legalization for 3D ICs.
 
-    I completed my undergraduate studies at National Taiwan University in 2022, where I achieved 4.06/4.30. 
-    During my undergraduate years, I had the privilege of interning at Synopsys (2021 summer) and Cadence (2020 summer), 
-    where I worked on improving the state-of-art EDA tools.
+    Hi, I'm Yen-Hsiang (Robert) Huang, a Ph.D. student in Electrical and Computer Engineering at Georgia Tech and a graduate research assistant in the [GTCAD Lab](https://www.gtcad.ece.gatech.edu), advised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu).
+    My research focuses on electronic design automation, physical design, 3D integrated circuits, differentiable optimization, and hardware synthesis and verification.
 
-    Prof. Lim's lab has provided me with an excellent opportunity to explore my research interests and gain valuable experience in the field of 3D VLSI. 
-    To learn more about the lab and its ongoing research projects, please visit [GTCAD](https://www.gtcad.gatech.edu).
+    My current work includes 3D IC optimization, differentiable clock-tree optimization, cross-tier logic-path snaking, 3D-via reduction, and inter-die cell relocation.
+    I earned my B.S. in Electrical Engineering from National Taiwan University in 2022.
 
 content:
 
-  - title: Publication
+  - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **On Legalization of Die Bonding Bumps and Pads for 3D ICs(Invited)**  \\
-          Sai Pentapati, Anthony Agnesina, Moritz Brunion, **Yen-Hsiang Huang**, Sung Kyu Lim.  \\
-          27th ACM International Symposium on Physical Design (ISPD), 2023. 
- 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - **CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs** — **Yen-Hsiang Huang** and Sung Kyu Lim. IEEE/ACM International Conference on Computer-Aided Design, 2026.
+      - **Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs** — **Yen-Hsiang Huang** and Sung Kyu Lim. IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2025. [PDF](https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf)
+      - **On Legalization of Die Bonding Bumps and Pads for 3D ICs** — **Yen-Hsiang Huang**, Sai Pentapati, Anthony Agnesina, Moritz Brunion, and Sung Kyu Lim. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2024.
+      - **On Legalization of Die Bonding Bumps and Pads for 3D ICs** — Sai Pentapati, Anthony Agnesina, Moritz Brunion, **Yen-Hsiang Huang**, and Sung Kyu Lim. ACM International Symposium on Physical Design (ISPD), 2023.
+
+  - title: Experience
+    layout: list
     content:
+      - layout: left
+        title: Synopsys Inc.
+        caption: May 2025 - Dec. 2025
+        sub_title: R&D Engineer | Synopsys Headquarters
+        description: |
+          - Investigated AI-based signal-integrity analysis for 2.5D ICs using graph neural networks to predict final-stage SI performance from early-stage design data.
+          - Independently implemented two provided prototypes in C++ and merged the resulting code into the main branch.
+      - layout: left
+        title: GTCAD Lab., Georgia Tech
+        caption: Sept. 2022 - Present
+        sub_title: Graduate Research Assistant
+        description: |
+          - Research in 3D IC optimization, differentiable learning, and physical design under the supervision of Prof. Sung Kyu Lim.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Georgia Institute of Technology
+        caption: Sept. 2022 - Present
+        sub_title: "Ph.D. in Electrical and Computer Engineering | GPA: 4.0/4.0"
+        description: |
+          - Atlanta, Georgia
       - layout: left
         title: National Taiwan University
         caption: 2017 - 2022
         sub_title: B.S. in Electrical Engineering
         description: | # this will include new lines to allow paragraphs
           - GPA: 4.06/4.30
-          - TSMC Scholarship for Undergradate Student, *Sept. 2020 - Jan. 2021*
-          - The Presidential Award, *spring 2020*
+          - TSMC Scholarship for Undergraduate Students, Sept. 2020 - Jan. 2021
+          - Dean's List Award, Spring 2020
 
 # Footer
 footer_show_references: true

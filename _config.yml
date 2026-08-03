@@ -84,6 +84,20 @@ content:
         sub_title: Graduate Research Assistant
         description: |
           - Research in 3D IC optimization, differentiable learning, and physical design under the supervision of Prof. Sung Kyu Lim.
+      - layout: left
+        title: Synopsys Inc.
+        caption: July 2021 - Aug. 2021
+        sub_title: Software Engineer R&D Intern | Concurrent Clock-and-Data (CCD) Team
+        description: |
+          - Enhanced the flip-flop merging algorithm in Synopsys IC Compiler II (ICC II) by considering flip-flop timing (slack).
+          - Improved timing quality across 13 industrial benchmarks, achieving 5.14%/3.47% improvements in worst/total negative slack.
+      - layout: left
+        title: Cadence Inc.
+        caption: June 2020 - Sept. 2020
+        sub_title: Software Engineer R&D Intern | Conformal Team
+        description: |
+          - Developed electronic change-order (ECO) test cases as part of a five-person team for Cadence Conformal robustness testing.
+          - Generated more than 2,000 cases across five categories in which Conformal behaved unusually and proposed three improved flows to address them.
 
   - title: Education
     layout: list
@@ -97,9 +111,8 @@ content:
       - layout: left
         title: National Taiwan University
         caption: 2017 - 2022
-        sub_title: B.S. in Electrical Engineering
+        sub_title: "B.S. in Electrical Engineering | GPA: 4.06/4.30"
         description: | # this will include new lines to allow paragraphs
-          - GPA: 4.06/4.30
           - TSMC Scholarship for Undergraduate Students, Sept. 2020 - Jan. 2021
           - Dean's List Award, Spring 2020
 

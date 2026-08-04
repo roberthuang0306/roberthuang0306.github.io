@@ -47,7 +47,9 @@ sections:
         - **Synopsys CCD Team — Software Engineer R&D Intern (July–August 2021):** improved flip-flop merging and timing quality across 13 industrial benchmarks.
         - **Cadence Conformal Team — Software Engineer R&D Intern (June–September 2020):** generated more than 2,000 ECO test cases and proposed three improved flows.
 
-        [View the full CV](/cv/)
+        [View Resume](/resume/) · [Download Resume](/uploads/resume.pdf)
+
+        [View the full CV](/cv/) · [Download CV](/uploads/cv.pdf)
     design:
       columns: '1'
 

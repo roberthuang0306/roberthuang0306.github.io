@@ -1,14 +1,20 @@
 <style>
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     /* Keep the profile/headshot visible while the main content scrolls. */
     .resume-biography {
       overflow: visible;
     }
 
     .resume-biography > .max-w-7xl > .grid > div:first-child {
-      position: sticky;
+      position: fixed;
       top: 5.5rem;
-      align-self: start;
+      left: max(1.5rem, calc((100vw - 80rem) / 2));
+      width: min(26.667rem, calc((100vw - 3rem) / 3));
+      z-index: 20;
+    }
+
+    .resume-biography > .max-w-7xl > .grid > div:last-child {
+      grid-column: 5 / span 8;
     }
   }
 </style>

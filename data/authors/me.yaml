@@ -27,11 +27,13 @@ education:
   - degree: Ph.D. Electrical and Computer Engineering
     institution: Georgia Institute of Technology
     start: 2022-09-01
+    year: September 2022
     summary: GPA 4.0/4.0.
   - degree: B.S. Electrical Engineering
     institution: National Taiwan University
     start: 2017-09-01
     end: 2022-07-31
+    year: September 2017 – July 2022
     summary: GPA 4.06/4.30. TSMC Scholarship; Dean's List Award.
 
 experience:

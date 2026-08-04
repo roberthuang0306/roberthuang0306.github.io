@@ -116,6 +116,10 @@
 
   @media (min-width: 1024px) {
     /* Keep the profile/headshot visible while the main content scrolls. */
+    #section-resume-biography-3 {
+      z-index: 40;
+    }
+
     .resume-biography {
       overflow: visible;
     }
@@ -125,7 +129,8 @@
       top: 5.5rem;
       left: max(1rem, calc((100vw - 80rem) / 2 - 3rem));
       width: min(26.667rem, calc((100vw - 3rem) / 3));
-      z-index: 20;
+      z-index: 50;
+      pointer-events: auto;
     }
 
     .resume-biography > .max-w-7xl > .grid > div:last-child {

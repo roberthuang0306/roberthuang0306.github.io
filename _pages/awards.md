@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Awards
+title: Additional Awards
 permalink: /awards/
-description: Selected awards, scholarships, and research recognition.
-nav: true
-nav_order: 4
+description: Additional awards, scholarships, and research recognition.
+nav: false
 ---
 
 - **Honorable Mention Award, ACM ISPD Contest 2021** — 4th place worldwide.

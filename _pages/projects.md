@@ -3,8 +3,7 @@ layout: page
 title: Research
 permalink: /projects/
 description: Research projects in physical design, 3D IC optimization, and electronic design automation.
-nav: true
-nav_order: 3
+nav: false
 display_categories: [research]
 horizontal: false
 ---

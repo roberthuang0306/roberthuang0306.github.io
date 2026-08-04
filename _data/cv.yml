@@ -1,10 +1,10 @@
 cv:
   name: Yen-Hsiang (Robert) Huang
-  label: Ph.D. Student in Electrical and Computer Engineering
+  label: Ph.D. Student
   email: yhuang861@gatech.edu
   location: Atlanta, Georgia, USA
   image: ""
-  summary: Ph.D. student at Georgia Tech and graduate research assistant at GTCAD working on electronic design automation, physical design, and 3D integrated circuits.
+  summary: Ph.D. student at Georgia Tech and graduate research assistant with SCCAD (former GTCAD) working on electronic design automation, physical design, and 3D integrated circuits.
 
   social_networks:
     - network: GitHub
@@ -36,7 +36,7 @@ cv:
           - The Dean's List Award; ranked 1st with a 4.30/4.30 semester GPA.
 
     Experience:
-      - company: GTCAD Lab., Georgia Institute of Technology
+      - company: SCCAD (former GTCAD), Georgia Institute of Technology
         position: Graduate Research Assistant
         location: Atlanta, Georgia, USA
         start_date: 2022-09
@@ -92,6 +92,51 @@ cv:
           - Developed electronic change-order test cases as part of a five-person team for Cadence Conformal robustness testing.
           - Generated more than 2,000 cases across five categories in which Conformal behaved unusually and proposed three improved flows to address them.
 
+    Publications:
+      - title: "CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: IEEE/ACM International Conference on Computer-Aided Design
+        releaseDate: 2026
+        url: https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf
+
+      - title: "Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+        releaseDate: 2025
+        url: https://sites.usc.edu/sccad/Huang-ICCAD25
+
+      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sai Pentapati
+          - Anthony Agnesina
+          - Moritz Brunion
+          - Sung Kyu Lim
+        publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+        releaseDate: 2024
+        url: https://sites.usc.edu/sccad/tcad24-robert
+
+      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
+        authors:
+          - Sai Pentapati
+          - Anthony Agnesina
+          - Moritz Brunion
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: ACM International Symposium on Physical Design (ISPD)
+        releaseDate: 2023
+        url: https://sites.usc.edu/sccad/3569052.3578925
+
+    Languages:
+      - name: English
+        summary: Fluent
+      - name: Mandarin
+        summary: Native
+
     Awards:
       - title: Honorable Mention Award, ACM ISPD Contest 2021
         date: 2021-03
@@ -112,55 +157,3 @@ cv:
         date: 2020-03
         awarder: National Taiwan University
         summary: Ranked 1st with a 4.30/4.30 semester GPA.
-
-    Publications:
-      - title: "CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs"
-        authors:
-          - Yen-Hsiang Huang
-          - Sung Kyu Lim
-        publisher: IEEE/ACM International Conference on Computer-Aided Design
-        releaseDate: 2026
-
-      - title: "Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs"
-        authors:
-          - Yen-Hsiang Huang
-          - Sung Kyu Lim
-        publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
-        releaseDate: 2025
-        url: https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf
-
-      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
-        authors:
-          - Yen-Hsiang Huang
-          - Sai Pentapati
-          - Anthony Agnesina
-          - Moritz Brunion
-          - Sung Kyu Lim
-        publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
-        releaseDate: 2024
-
-      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
-        authors:
-          - Sai Pentapati
-          - Anthony Agnesina
-          - Moritz Brunion
-          - Yen-Hsiang Huang
-          - Sung Kyu Lim
-        publisher: ACM International Symposium on Physical Design (ISPD)
-        releaseDate: 2023
-
-    Projects:
-      - name: Mixed-Size Macro Placement and Legalization
-        summary: Developed a mixed-size macro placer for non-rectangular designs in a two-person team while maintaining the minimum channel needed by macros.
-        start_date: 2021-02
-        end_date: 2021-07
-
-    Skills:
-      - name: Programming Languages
-        keywords: "C/C++ (expert), Python, MATLAB, LaTeX"
-
-    Languages:
-      - name: English
-        summary: Fluent
-      - name: Mandarin
-        summary: Native

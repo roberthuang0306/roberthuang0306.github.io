@@ -2,11 +2,10 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
-nav_order: 5
+nav: false
 cv_pdf: /assets/pdf/cv.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae with education, research experience, work experience, publications, projects, awards, and skills.
+description: Curriculum vitae with education, research experience, work experience, publications, languages, and additional awards.
 toc:
   sidebar: left
 ---

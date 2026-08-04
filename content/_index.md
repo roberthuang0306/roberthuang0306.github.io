@@ -57,10 +57,10 @@ sections:
       icon: document-text
       align_right: true
       text: |-
-        - **Yen-Hsiang Huang and Sung Kyu Lim.** [CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs](https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf) — IEEE/ACM ICCAD, 2026.
-        - **Yen-Hsiang Huang and Sung Kyu Lim.** [Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs](https://sites.usc.edu/sccad/Huang-ICCAD25) — IEEE/ACM ICCAD, 2025.
-        - **Yen-Hsiang Huang, Sai Pentapati, Anthony Agnesina, Moritz Brunion, and Sung Kyu Lim.** [On Legalization of Die Bonding Bumps and Pads for 3D ICs](https://sites.usc.edu/sccad/tcad24-robert) — IEEE TCAD, 2024.
-        - **Sai Pentapati, Anthony Agnesina, Moritz Brunion, Yen-Hsiang Huang, and Sung Kyu Lim.** [On Legalization of Die Bonding Bumps and Pads for 3D ICs](https://sites.usc.edu/sccad/3569052.3578925) — ACM ISPD, 2023.
+        - **Yen-Hsiang Huang** and Sung Kyu Lim, “CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs”, IEEE/ACM International Conference on Computer-Aided Design, 2026.
+        - **Yen-Hsiang Huang** and Sung Kyu Lim, “Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs”, IEEE/ACM International Conference on Computer-Aided Design, 2025. ([pdf](https://sites.usc.edu/sccad/Huang-ICCAD25))
+        - **Yen-Hsiang Huang**, Sai Pentapati, Anthony Agnesina, Moritz Brunion, and Sung Kyu Lim, “On Legalization of Die Bonding Bumps and Pads for 3D ICs”, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2024. ([pdf](https://sites.usc.edu/sccad/tcad24-robert))
+        - Sai Pentapati, Anthony Agnesina, Moritz Brunion, **Yen-Hsiang Huang**, and Sung Kyu Lim, “On Legalization of Die Bonding Bumps and Pads for 3D ICs”, ACM International Symposium on Physical Design, 2023. ([pdf](https://sites.usc.edu/sccad/3569052.3578925))
     design:
       columns: '1'
 

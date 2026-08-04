@@ -76,4 +76,13 @@ sections:
         - **The Dean's List Award** — ranked 1st with a 4.30/4.30 semester GPA.
     design:
       columns: '1'
+
+  - block: markdown
+    id: template-comparison
+    content:
+      title: Template Comparisons
+      text: |-
+        Compare the two alternate layouts prepared with the same profile and content: [Academic Pages](/compare/academic-pages/) and [Minimal Mistakes](/compare/minimal-mistakes/).
+    design:
+      columns: '1'
 ---

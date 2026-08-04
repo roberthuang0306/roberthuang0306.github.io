@@ -1,0 +1,166 @@
+cv:
+  name: Yen-Hsiang (Robert) Huang
+  label: Ph.D. Student in Electrical and Computer Engineering
+  email: yhuang861@gatech.edu
+  location: Atlanta, Georgia, USA
+  image: ""
+  summary: Ph.D. student at Georgia Tech and graduate research assistant at GTCAD working on electronic design automation, physical design, and 3D integrated circuits.
+
+  social_networks:
+    - network: GitHub
+      username: roberthuang0306
+    - network: LinkedIn
+      username: yen-hsiang-huang-5a78771b5
+    - network: ORCID
+      username: 0000-0003-0116-1351
+
+  sections:
+    Education:
+      - institution: Georgia Institute of Technology
+        location: Atlanta, Georgia, USA
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2022-09
+        end_date: present
+        score: "4.0/4.0"
+
+      - institution: National Taiwan University
+        location: Taipei, Taiwan
+        area: Electrical Engineering
+        studyType: B.S.
+        start_date: 2017-09
+        end_date: 2022-07
+        score: "4.06/4.30"
+        highlights:
+          - TSMC Scholarship for Undergraduate Students.
+          - The Dean's List Award; ranked 1st with a 4.30/4.30 semester GPA.
+
+    Experience:
+      - company: GTCAD Lab., Georgia Institute of Technology
+        position: Graduate Research Assistant
+        location: Atlanta, Georgia, USA
+        start_date: 2022-09
+        end_date: present
+        summary: Research under the supervision of Prof. Sung Kyu Lim.
+        highlights:
+          - "3D IC optimization through 3D-via reduction and inter-die cell relocation for timing improvement."
+          - "SRC JUMP 2.0 CHIMES: reduced legacy-node 3D IC WNS by 50–93% compared with the state of the art, achieving 87.9–97.7% of advanced-node 2D performance."
+          - "Die bonding bumps and pads legalization: developed a 3D-via legalization stage with refinement and eliminated all 3D-via overlaps below 40% via utilization."
+
+      - company: EDA Lab., National Taiwan University
+        position: Individual Study on Physical Design
+        location: Taipei, Taiwan
+        start_date: 2020-04
+        end_date: 2021-09
+        summary: Research under the supervision of Prof. Yao-Wen Chang.
+        highlights:
+          - Participated in three physical-design global contests and placed in the top five twice, including ISPD 2021 and ICCAD 2021.
+
+      - company: ALCom Lab., National Taiwan University
+        position: Individual Study on Reversible Circuit Synthesis
+        location: Taipei, Taiwan
+        start_date: 2020-09
+        end_date: 2021-06
+        summary: Research under the supervision of Prof. Jie-Hong Jiang.
+        highlights:
+          - Implemented a reversible circuit synthesizer for controlled-NOT (CNOT) gates.
+
+      - company: Synopsys Inc.
+        position: R&D Engineer
+        location: Synopsys Headquarters
+        start_date: 2025-05
+        end_date: 2025-12
+        highlights:
+          - Investigated AI-based signal-integrity analysis for 2.5D ICs using graph neural networks to predict final-stage SI performance from early-stage design data.
+          - Independently implemented two provided prototypes in C++ and merged the resulting code into the main branch.
+
+      - company: Synopsys Inc., Concurrent Clock-and-Data (CCD) Team
+        position: Software Engineer R&D Intern
+        location: Hsinchu, Taiwan
+        start_date: 2021-07
+        end_date: 2021-08
+        highlights:
+          - Enhanced the flip-flop merging algorithm in Synopsys IC Compiler II by considering flip-flop timing slack.
+          - Improved timing quality across 13 industrial benchmarks, achieving 5.14%/3.47% improvements in worst/total negative slack.
+
+      - company: Cadence Inc., Conformal Team
+        position: Software Engineer R&D Intern
+        location: Hsinchu, Taiwan
+        start_date: 2020-06
+        end_date: 2020-09
+        highlights:
+          - Developed electronic change-order test cases as part of a five-person team for Cadence Conformal robustness testing.
+          - Generated more than 2,000 cases across five categories in which Conformal behaved unusually and proposed three improved flows to address them.
+
+    Awards:
+      - title: Honorable Mention Award, ACM ISPD Contest 2021
+        date: 2021-03
+        awarder: ACM International Symposium on Physical Design
+        summary: 4th place worldwide in the contest.
+
+      - title: TSMC Scholarship for Undergraduate Students
+        date: 2020-09
+        awarder: TSMC
+        summary: Awarded to approximately 20 undergraduate students in Taiwan each semester.
+
+      - title: Ministry of Science and Technology Undergraduate Research Grant
+        date: 2021-07
+        awarder: Ministry of Science and Technology, Taiwan
+        summary: Wafer-scale physics modeling for finite-element methods.
+
+      - title: The Dean's List Award
+        date: 2020-03
+        awarder: National Taiwan University
+        summary: Ranked 1st with a 4.30/4.30 semester GPA.
+
+    Publications:
+      - title: "CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: IEEE/ACM International Conference on Computer-Aided Design
+        releaseDate: 2026
+
+      - title: "Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+        releaseDate: 2025
+        url: https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf
+
+      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
+        authors:
+          - Yen-Hsiang Huang
+          - Sai Pentapati
+          - Anthony Agnesina
+          - Moritz Brunion
+          - Sung Kyu Lim
+        publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+        releaseDate: 2024
+
+      - title: "On Legalization of Die Bonding Bumps and Pads for 3D ICs"
+        authors:
+          - Sai Pentapati
+          - Anthony Agnesina
+          - Moritz Brunion
+          - Yen-Hsiang Huang
+          - Sung Kyu Lim
+        publisher: ACM International Symposium on Physical Design (ISPD)
+        releaseDate: 2023
+
+    Projects:
+      - name: Mixed-Size Macro Placement and Legalization
+        summary: Developed a mixed-size macro placer for non-rectangular designs in a two-person team while maintaining the minimum channel needed by macros.
+        start_date: 2021-02
+        end_date: 2021-07
+
+    Skills:
+      - name: Programming Languages
+        keywords: "C/C++ (expert), Python, MATLAB, LaTeX"
+
+    Languages:
+      - name: English
+        summary: Fluent
+      - name: Mandarin
+        summary: Native

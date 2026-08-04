@@ -1,0 +1,98 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Yen-Hsiang (Robert) Huang
+  given: Yen-Hsiang
+  family: Huang
+  alternate: Robert
+  pronunciation: ''
+  pronouns: ''
+
+role: Ph.D. Student
+bio: |
+  Yen-Hsiang (Robert) Huang is a Ph.D. Student in Electrical and Computer Engineering at the [Georgia Institute of Technology](https://www.gatech.edu/) and a graduate research assistant with [SCCAD (former GTCAD)](https://sites.usc.edu/sccad/), advised by [Prof. Sung Kyu Lim](http://limsk.ece.gatech.edu/).
+
+  His research focuses on electronic design automation, physical design, 3D integrated circuits, differentiable optimization, and hardware synthesis and verification. Contact: [yhuang861@gatech.edu](mailto:yhuang861@gatech.edu).
+
+affiliations:
+  - name: SCCAD (former GTCAD), Georgia Institute of Technology
+    url: https://sites.usc.edu/sccad/
+
+# Keep the biography visually clean; contact links are written in the bio above.
+links: []
+
+education:
+  - degree: Ph.D. Electrical and Computer Engineering
+    institution: Georgia Institute of Technology
+    start: 2022-09-01
+    summary: GPA 4.0/4.0.
+  - degree: B.S. Electrical Engineering
+    institution: National Taiwan University
+    start: 2017-09-01
+    end: 2022-07-31
+    summary: GPA 4.06/4.30. TSMC Scholarship; Dean's List Award.
+
+experience:
+  - role: Graduate Research Assistant
+    org: SCCAD (former GTCAD), Georgia Institute of Technology
+    start: 2022-09-01
+    summary: |
+      - 3D IC optimization through 3D-via reduction and inter-die cell relocation for timing improvement.
+      - SRC JUMP 2.0 CHIMES: reduced legacy-node 3D IC WNS by 50–93% compared with the state of the art, achieving 87.9–97.7% of advanced-node 2D performance.
+      - Die bonding bumps and pads legalization: developed a 3D-via legalization stage with refinement and eliminated all 3D-via overlaps below 40% via utilization.
+
+  - role: R&D Engineer
+    org: Synopsys Inc., Synopsys Headquarters
+    start: 2025-05-01
+    end: 2025-12-31
+    summary: |
+      - Researched AI-based signal-integrity analysis for 2.5D ICs using graph neural networks to predict final-stage SI performance from early-stage design data.
+      - Independently implemented two provided prototypes in C++ and merged the resulting code into the main branch.
+
+  - role: Individual Study on Physical Design
+    org: EDA Lab., National Taiwan University
+    start: 2020-04-01
+    end: 2021-09-30
+    summary: Participated in three physical-design global contests and placed in the top five twice, including ISPD 2021 and ICCAD 2021.
+
+  - role: Individual Study on Reversible Circuit Synthesis
+    org: ALCom Lab., National Taiwan University
+    start: 2020-09-01
+    end: 2021-06-30
+    summary: Implemented a reversible circuit synthesizer for controlled-NOT (CNOT) gates.
+
+  - role: Software Engineer R&D Intern
+    org: Synopsys Inc., Concurrent Clock-and-Data (CCD) Team
+    start: 2021-07-01
+    end: 2021-08-31
+    summary: |
+      - Enhanced the flip-flop merging algorithm in Synopsys IC Compiler II by considering flip-flop timing slack.
+      - Improved timing quality across 13 industrial benchmarks, achieving 5.14%/3.47% improvements in worst/total negative slack.
+
+  - role: Software Engineer R&D Intern
+    org: Cadence Inc., Conformal Team
+    start: 2020-06-01
+    end: 2020-09-30
+    summary: |
+      - Developed electronic change-order test cases as part of a five-person team for Cadence Conformal robustness testing.
+      - Generated more than 2,000 cases across five categories in which Conformal behaved unusually and proposed three improved flows to address them.
+
+awards:
+  - title: Honorable Mention Award, ACM ISPD Contest 2021
+    awarder: ACM International Symposium on Physical Design
+    date: '2021-03-01'
+    summary: 4th place worldwide.
+  - title: TSMC Scholarship for Undergraduate Students
+    awarder: TSMC
+    date: '2020-09-01'
+    summary: Awarded to approximately 20 undergraduate students in Taiwan each semester.
+  - title: Ministry of Science and Technology Undergraduate Research Grant
+    awarder: Ministry of Science and Technology, Taiwan
+    date: '2021-07-01'
+    summary: Wafer-scale physics modeling for finite-element methods.
+  - title: The Dean's List Award
+    awarder: National Taiwan University
+    date: '2020-03-01'
+    summary: Ranked 1st with a 4.30/4.30 semester GPA.

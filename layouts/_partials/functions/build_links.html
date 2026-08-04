@@ -1,0 +1,30 @@
+{{/*
+  Local compatibility wrapper for HugoBlox's publication links.
+
+  Hugo 0.162 can fail when the upstream module's scratch-map helper is
+  called from a publication list. The site only needs front-matter links,
+  so keep the same normalized fields without the scratch-map mutation.
+*/}}
+
+{{ $page := .page }}
+{{ $links := slice }}
+{{ $types := hugo.Data.link_types.types }}
+
+{{ with $page.Params.links }}
+  {{ range . }}
+    {{ $type := .type | default "custom" }}
+    {{ $url := .url | default "" }}
+    {{ $type_info := index $types $type | default dict }}
+    {{ $links = $links | append (dict
+      "type" $type
+      "url" $url
+      "icon" (.icon | default (index $type_info "icon") | default "hero/link")
+      "labelKey" (index $type_info "label_i18n")
+      "label" (.label | default .name)
+      "contexts" (.contexts | default (slice "list" "page"))
+      "rel" .rel
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{ return $links }}

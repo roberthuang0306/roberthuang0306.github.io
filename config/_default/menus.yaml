@@ -5,7 +5,7 @@ main:
   - name: Research
     url: /#research
     weight: 20
-  - name: Work Experience
+  - name: Exp
     url: /#experience
     weight: 30
   - name: Publications

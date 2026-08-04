@@ -1,4 +1,86 @@
 <style>
+  .profile-documents {
+    width: min(100%, 20rem);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  .profile-document {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid rgb(229 231 235);
+    border-radius: 0.75rem;
+    background: rgb(255 255 255 / 0.96);
+    box-shadow: 0 4px 12px rgb(15 23 42 / 0.08);
+  }
+
+  .profile-document-label {
+    color: rgb(17 24 39);
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .profile-document-actions {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .profile-document-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.75rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .profile-document-primary {
+    color: white;
+    background: rgb(79 70 229);
+  }
+
+  .profile-document-primary:hover {
+    background: rgb(67 56 202);
+  }
+
+  .profile-document-secondary {
+    color: rgb(67 56 202);
+    border: 1px solid rgb(79 70 229);
+    background: transparent;
+  }
+
+  .profile-document-secondary:hover {
+    background: rgb(238 242 255);
+  }
+
+  .dark .profile-document {
+    border-color: rgb(55 65 81);
+    background: rgb(31 41 55 / 0.96);
+  }
+
+  .dark .profile-document-label {
+    color: rgb(255 255 255);
+  }
+
+  .dark .profile-document-secondary {
+    color: rgb(165 180 252);
+    border-color: rgb(129 140 248);
+  }
+
+  .dark .profile-document-secondary:hover {
+    background: rgb(49 46 129 / 0.4);
+  }
+
   @media (min-width: 1024px) {
     /* Keep the profile/headshot visible while the main content scrolls. */
     .resume-biography {
@@ -18,3 +100,41 @@
     }
   }
 </style>
+<script>
+  (() => {
+    const addProfileDocuments = () => {
+      const profile = document.querySelector('.resume-biography > .max-w-7xl > .grid > div:first-child');
+      const identity = profile?.querySelector('.avatar-wrapper + div');
+
+      if (!identity || profile.querySelector('[data-profile-documents]')) return;
+
+      const documents = document.createElement('div');
+      documents.className = 'profile-documents';
+      documents.dataset.profileDocuments = 'true';
+      documents.setAttribute('aria-label', 'CV and resume links');
+      documents.innerHTML = `
+        <div class="profile-document">
+          <span class="profile-document-label">CV</span>
+          <span class="profile-document-actions">
+            <a class="profile-document-primary" href="/cv/">View</a>
+            <a class="profile-document-secondary" href="/uploads/cv.pdf" download>Download</a>
+          </span>
+        </div>
+        <div class="profile-document">
+          <span class="profile-document-label">Resume</span>
+          <span class="profile-document-actions">
+            <a class="profile-document-primary" href="/resume/">View</a>
+            <a class="profile-document-secondary" href="/uploads/resume.pdf" download>Download</a>
+          </span>
+        </div>`;
+
+      identity.insertAdjacentElement('afterend', documents);
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', addProfileDocuments);
+    } else {
+      addProfileDocuments();
+    }
+  })();
+</script>

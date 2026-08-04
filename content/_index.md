@@ -27,6 +27,7 @@ sections:
     content:
       title: Research
       icon: beaker
+      align_right: true
       text: |-
         My work centers on electronic design automation, physical design, and 3D integrated circuits.
 
@@ -41,6 +42,7 @@ sections:
     content:
       title: Work Experience
       icon: briefcase
+      align_right: true
       text: |-
         - **Synopsys Inc., Synopsys Headquarters — R&D Engineer (May–December 2025):** researched AI-based signal-integrity analysis for 2.5D ICs using graph neural networks and independently implemented two C++ prototypes into the main branch.
         - **Synopsys CCD Team — Software Engineer R&D Intern (July–August 2021):** improved flip-flop merging and timing quality across 13 industrial benchmarks.
@@ -79,6 +81,7 @@ sections:
     content:
       title: Publications
       icon: document-text
+      align_right: true
       text: |-
         - [CLK-3D: RC-Calibrated Differentiable Clock-Tree Optimization for 3D ICs](https://gtcad.gatech.edu/www/papers/Huang-ICCAD25.pdf) — IEEE/ACM ICCAD, 2026.
         - [Snake-3D: Differentiable Learning for Cross-Tier Logic Path Snaking Optimization in 3D ICs](https://sites.usc.edu/sccad/Huang-ICCAD25) — IEEE/ACM ICCAD, 2025.
@@ -92,6 +95,7 @@ sections:
     content:
       title: Additional Awards
       icon: trophy
+      align_right: true
       text: |-
         - **Honorable Mention Award, ACM ISPD Contest 2021** — 4th place worldwide.
         - **TSMC Scholarship for Undergraduate Students.**

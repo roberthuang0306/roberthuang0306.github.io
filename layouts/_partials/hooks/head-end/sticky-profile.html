@@ -49,6 +49,24 @@
     gap: 0.625rem;
   }
 
+  /* The resume page uses a prose reading column; let its PDF preview use the available page width. */
+  .resume-preview {
+    width: min(80rem, calc(100vw - 3rem));
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .resume-preview iframe {
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 640px) {
+    .resume-preview {
+      width: calc(100vw - 2rem);
+    }
+  }
+
   .profile-document {
     display: flex;
     align-items: center;

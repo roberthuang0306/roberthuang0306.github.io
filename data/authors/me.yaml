@@ -50,7 +50,7 @@ experience:
     start: 2025-05-01
     end: 2025-12-31
     summary: |
-      - Researched AI-based signal-integrity analysis for 2.5D ICs using graph neural networks to predict final-stage SI performance from early-stage design data.
+      - Researched machine-learning-based signal-integrity analysis for 2.5D ICs, evaluating multiple models to predict final-stage SI performance from early-stage design data.
       - Independently implemented two provided prototypes in C++ and merged the resulting code into the main branch.
 
   - role: Individual Study on Physical Design

@@ -44,7 +44,7 @@ sections:
       icon: briefcase
       align_right: true
       text: |-
-        - **Synopsys Inc., Synopsys Headquarters — R&D Engineer (May–December 2025):** researched AI-based signal-integrity analysis for 2.5D ICs using graph neural networks and independently implemented two C++ prototypes into the main branch.
+        - **Synopsys Inc., Synopsys Headquarters — R&D Engineer (May–December 2025):** researched machine-learning-based signal-integrity analysis for 2.5D ICs by evaluating multiple models and independently implemented two C++ prototypes into the main branch.
         - **Synopsys CCD Team — Software Engineer R&D Intern (July–August 2021):** improved flip-flop merging and timing quality across 13 industrial benchmarks.
         - **Cadence Conformal Team — Software Engineer R&D Intern (June–September 2020):** generated more than 2,000 ECO test cases and proposed three improved flows.
     design:
